@@ -65,3 +65,4 @@ use Cake\Routing\Router;
  * the built-in default routes.
  */
 	require CAKE . 'Config/routes.php';
+    Router::parseExtensions('json');
