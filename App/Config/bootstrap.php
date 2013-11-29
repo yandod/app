@@ -98,7 +98,7 @@ if (!class_exists('App\Controller\AppController')) {
  * Uncomment this line and correct your server timezone to fix
  * any date & time related errors.
  */
-	//date_default_timezone_set('UTC');
+	date_default_timezone_set('UTC');
 
 /**
  * Configure the mbstring extension to use the correct encoding.
