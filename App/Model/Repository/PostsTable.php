@@ -12,6 +12,6 @@ namespace App\Model\Repository;
 
 use Cake\ORM\Table;
 
-class PostTable extends Table{
+class PostsTable extends Table{
 
 }

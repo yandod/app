@@ -33,7 +33,7 @@ class SampleController extends AppController
 
     public function index3()
     {
-        $posts = TableRegistry::get('post');
+        $posts = TableRegistry::get('posts');
         //debug($posts);
         $results = $posts->find('all');
         $this->set('results', $results);
