@@ -35,7 +35,6 @@ class WeekendLancersShell extends AppShell {
         }
 
         $lists = range($num, $this->limit);
-
         $created = 0;
         foreach ($lists as $id) {
             $entity = new Entity([
